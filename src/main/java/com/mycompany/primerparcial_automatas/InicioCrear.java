@@ -344,11 +344,11 @@ public class InicioCrear extends javax.swing.JFrame {
     }
     }
        private void leerXmlAlInicio() {
-        // Obtén la ruta del archivo XML en la raíz del proyecto
+        
     String rutaProyecto = System.getProperty("user.dir");
     File archivo = new File(rutaProyecto, "albumes.xml");
 
-    // Verifica si el archivo existe antes de intentar leerlo
+    
     if (archivo.exists()) {
         // Verificar si ya se ha cargado previamente
         if (albumes.isEmpty() && imagenes.isEmpty()) {
@@ -363,13 +363,13 @@ public class InicioCrear extends javax.swing.JFrame {
     private void guardarXmlActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_guardarXmlActionPerformed
          String rutaProyecto = System.getProperty("user.dir");
     
-    // Construye la ruta completa para el archivo XML
+   
     File archivo = new File(rutaProyecto, "albumes.xml");
     
-    // Llama al método para escribir el XML
+    
     escribirXml(archivo);
     
-    // Opcional: Mensaje de confirmación
+    
     JOptionPane.showMessageDialog(this, "Archivo XML guardado exitosamente en: " + archivo.getAbsolutePath());
       
     }//GEN-LAST:event_guardarXmlActionPerformed
