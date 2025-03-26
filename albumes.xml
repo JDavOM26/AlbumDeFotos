@@ -1,0 +1,23 @@
+<albumes>
+<album>
+<Nombre>hola</Nombre>
+<ruta>/home/david/Desktop/hello.png</ruta>
+<ruta>/home/david/Desktop/tiger-jpg.jpg</ruta>
+</album>
+<album>
+<Nombre>Album1</Nombre>
+<ruta>/home/david/IMGS_PARCIAL1/bpcar.jpg</ruta>
+<ruta>/home/david/IMGS_PARCIAL1/hello.png</ruta>
+<ruta>/home/david/IMGS_PARCIAL1/nave.jpg</ruta>
+<ruta>/home/david/IMGS_PARCIAL1/pc.jpg</ruta>
+</album>
+<album>
+<Nombre>NUEVO</Nombre>
+</album>
+<album>
+<Nombre>NuevoAlbum</Nombre>
+<ruta>C:\Users\Joliv\Pictures\Screenshots\Captura de pantalla 2024-09-13 181924.png</ruta>
+<ruta>C:\Users\Joliv\Pictures\Screenshots\Captura de pantalla 2024-09-15 113940.png</ruta>
+<ruta>C:\Users\Joliv\Pictures\Screenshots\Captura de pantalla 2024-09-21 095438.png</ruta>
+</album>
+</albumes>
